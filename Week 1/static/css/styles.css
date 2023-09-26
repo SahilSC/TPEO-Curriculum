@@ -1,0 +1,49 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skills{
+    font-size: 14px;
+    font-style: italic;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+
+.bold{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+h1, h2, h3, p, ul {
+    font-family: 'DM Mono', monospace;
+}
+
+.education{
+    color: rgb(255, 187, 92);
+}
+
+.experience{
+    color: rgb(255, 155, 80);
+}
+
+.projects{
+    color:rgb(226, 94, 62);
+}
+.tech-skills{
+    color:rgb(198, 61, 47);
+}
+
+#imgsahil{
+    width: 300px;
+    border-radius: 70%;
+}
+

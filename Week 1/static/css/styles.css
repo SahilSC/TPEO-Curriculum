@@ -23,7 +23,7 @@
     text-decoration: underline;
 }
 
-h1, h2, h3, p, ul {
+h1, h2, h3, p, ul, ol {
     font-family: 'DM Mono', monospace;
 }
 
@@ -38,8 +38,13 @@ h1, h2, h3, p, ul {
 .projects{
     color:rgb(226, 94, 62);
 }
+
 .tech-skills{
     color:rgb(198, 61, 47);
+}
+
+.contact{
+    color:rgba(255, 68, 0, 0.548);
 }
 
 #imgsahil{

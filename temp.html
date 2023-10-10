@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id ="demo"></p>
+</body>
+<script>
+  const apiKey = "956d9d0e16ff740d3711c7955f17c403";
+    const loc = "London";
+    let apiCall = `http://api.openweathermap.org/geo/1.0/direct?q=${loc}&limit=5&appid=${apiKey}`;
+    fetch(apiCall)
+        .then((response) => {
+            return response.json(); // Parse the response and return the result
+        })
+        .then((data) => {
+            console.log(data[0]);
+        });
+</script>
+</html>
